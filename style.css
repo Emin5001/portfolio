@@ -10,6 +10,10 @@ body {
     min-height: 200vh;
 }
 
+html {
+    scroll-behavior:smooth;
+}
+
 /*Navbar CSS*/
 nav {
     position: fixed;
@@ -82,3 +86,22 @@ header .sticky ul li a {
 h1 {
     color: #fff;
 }
+
+#about {
+    margin-top: 10%;
+    display: flex;
+    align-items: center;    
+}
+
+
+#about img {
+    float: left;
+    border-radius: 50%;
+}
+
+#about p {
+    color: #fff;
+    padding: 5%;
+}
+
+
