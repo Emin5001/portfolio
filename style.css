@@ -75,7 +75,7 @@ header .sticky ul li a {
     position: relative;
     
 }
-
+/*CSS of Sections*/
 #name {
     margin-top: 10%;
     display: flex;
@@ -83,14 +83,14 @@ header .sticky ul li a {
     justify-content: center;
 }
 
-h1 {
+#title {
     color: #fff;
+    
 }
 
 #about {
-    margin-top: 10%;
     display: flex;
-    align-items: center;    
+    align-items: center; 
 }
 
 
@@ -104,4 +104,117 @@ h1 {
     padding: 5%;
 }
 
+#education {
+    display: inline-block;
+    margin: 2% 2%;
+    color: #fff;
+    line-height: 30px;
+}
 
+#education ul {
+    list-style:none;
+}
+
+#welcome {
+    height: 100vh; 
+    width: 100%;
+}
+
+#title {
+    padding-top: 50vh;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 100px;
+    width: 100%;
+}
+
+#experience {
+    color: #fff;
+    width: 100vh;
+    margin: 2% 2%;
+}
+
+#edu_experience {
+    display: flex;
+}
+
+#projects {
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+}
+
+#projectOne {
+    grid-row: 2;
+    grid-column: 1;
+    background-color: red;
+}
+
+#projectTwo {
+    grid-row: 2;
+    grid-column: 2;
+    background-color: blue;
+}
+
+#projectThree {
+    grid-row: 2;
+    grid-column: 3;
+    background-color: green;
+}
+
+#projectOne img,
+#projectTwo img,
+#projectThree img {
+    height: 200px;
+    width: 200px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#projects h2 {
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.tableList {
+    list-style: none;
+}
+
+/*Fade In Text CSS*/
+.fade-in-text {
+    display: inline-block;
+    color: black;
+    animation: fadeIn linear 5s;
+    -webkit-animation: fadeIn linear 5s;
+    -moz-animation: fadeIn linear 5s;
+    -o-animation: fadeIn linear 5s;
+    -ms-animation: fadeIn linear 5s;
+  }
+  
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
