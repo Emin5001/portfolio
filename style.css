@@ -139,44 +139,56 @@ header .sticky ul li a {
 }
 
 #projects {
+    color: #fff;
+}
+
+#projectGrid {
     color: white;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
 }
 
 #projectOne {
-    grid-row: 2;
+    grid-row: 1;
     grid-column: 1;
-    background-color: red;
 }
 
 #projectTwo {
-    grid-row: 2;
+    grid-row: 1;
     grid-column: 2;
-    background-color: blue;
 }
 
 #projectThree {
-    grid-row: 2;
+    grid-row: 1;
     grid-column: 3;
-    background-color: green;
 }
 
-#projectOne img,
-#projectTwo img,
-#projectThree img {
+.projectImg {
     height: 200px;
     width: 200px;
-    display:flex;
-    align-items: center;
-    justify-content: center;
+    display:block;
+    margin: 0 auto;
     
 }
 
 #projects h2 {
     grid-row: 1;
     grid-column: 2;
+}
+
+#contact {
+    text-align: center;
+    color: white;
+}
+
+footer {
+    background-color: #fff;
+}
+
+footer .icons {
+    display: inline-block;
+    text-align: center;
 }
 
 .tableList {
